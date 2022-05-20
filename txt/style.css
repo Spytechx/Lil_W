@@ -1,0 +1,132 @@
+body{
+    background-color: white;
+}
+
+header {
+    background-color: #15133c;
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    position: sticky;
+    top: 5px;
+    padding: 5px;
+    margin: 10px;
+}
+.name, .nav{
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    font-size: 30px;
+}
+
+ul{
+    list-style-type: none;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 2px;
+}
+li{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+}
+
+.h{
+    background-color: #15133c;
+    padding: 5px;
+    max-width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.intro{
+    width: 400px;
+    background-color: white;
+    
+    align-items: center;
+}
+
+.hi{
+    color: black;
+    padding: 10px;
+    margin: 10px;
+}
+.x{
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: dotted;
+    text-transform: uppercase;
+    text-decoration-color: #15133c;
+    text-decoration-style: solid;
+}
+
+.who{
+    border: 4px solid #15133c;
+    display: flex;
+    margin: 10px;
+    position: relative;
+    height: 250px;
+}
+
+.box_1, .box_2{
+    border-style: double;
+    color: red;
+    height: 200px;
+    width: 200px;
+    justify-content: space-between;
+}
+
+.dd{
+    border-style: double;
+    color: red;
+    height: 200px;
+    width: 200px;
+    justify-content: space-between;
+}
+
+.box_1{
+    top: 5px;
+    left: 5px;
+    position: absolute;
+    color: red;
+    background-color: red;
+}
+.box_2{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.abt{
+    width: 400px;
+    background-color: #15133c;
+    color: white;
+    position: relative;
+    left: 60%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.image{
+    max-width: inherit;
+    height:100px;
+    background-color: #15133c;
+    justify-content: space-between;
+    display: flex;
+    padding: 0px 100px 0px 100px;
+    
+}
+.four_img{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    
+}
+
+.closing{
+    background-color: #15133c;
+    color: white;
+}
